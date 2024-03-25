@@ -1,8 +1,9 @@
 .hero-wrapper {
     background: url('images/top-hero-bg.png');
     background-size: cover;
-    background-position: 0 -285%;
+    background-position: center center;
 }
+
 .hero {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -11,7 +12,7 @@
 .mechanic-button {
     color: white;
     background: #F3182E;
-    padding: 20px 50px;
+    padding: 20px 40px;
     text-decoration: none;
     display: inline-block;
     letter-spacing: .4em;
@@ -21,4 +22,28 @@
 
 .nav-link {
     padding: 0 15px!important;
+}
+
+.bg-ec-dark {
+    background: #0D0E12;
+}
+
+.white-bar {
+    width: 130%;
+    height: 64px;
+    background: #fff;
+}
+
+.left-minus-10 {
+    left: -10px;
+}
+
+.about .left img {
+    max-width: 130%;
+    width: 130%;
+    margin-left: -30%;
+}
+
+.pe-9 {
+    padding-right: 9rem;
 }
