@@ -70,6 +70,10 @@
     margin-top: 150px;
 }
 
+.pt-150 {
+    padding-top: 150px;
+}
+
 .statistics-card {
     background: #ffffff05;
     padding: 30px;
@@ -135,4 +139,56 @@
 
 .footer hr {
     margin: 100px 0px;
+}
+
+@media all and (max-width: 768px) {
+    .mt-150 {
+        margin-top: 50px;
+    }
+
+    .about p.text-light {
+        padding-bottom: 50px;
+    }
+
+    .mechanic-button-outline {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .our-services .mechanic-button-outline-wrapper {
+        text-align: left!important;
+    }
+
+    .our-services .col-md-4 img{
+        width: 100%;
+    }
+    
+    .our-statistics .position-relative{
+        padding-bottom: 100px;
+    }
+
+    .our-projects .mechanic-button-outline-wrapper {
+        text-align: left!important;
+    }
+
+    .faq-accordion {
+        padding-right: 0px;
+    }
+
+    .cta {
+        margin-top: 0px;
+    }
+
+    .faq-bg {
+        background-attachment: fixed;
+    }
+
+    .footer .justify-content-sm-center,
+    .footer .justify-content-sm-end  {
+        margin-top: 40px;
+    }
+
+    .footer hr {
+        margin: 50px 0px;
+    }
 }
