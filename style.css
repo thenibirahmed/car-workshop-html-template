@@ -49,6 +49,10 @@
     left: -10px;
 }
 
+.right-minus-10 {
+    right: -10px;
+}
+
 .about .left img {
     max-width: 130%;
     width: 130%;
@@ -58,7 +62,22 @@
 .pe-9 {
     padding-right: 9rem;
 }
+.pt-9 {
+    padding-top: 9rem;
+}
 
 .mt-150 {
     margin-top: 150px;
+}
+
+.statistics-card {
+    background: #ffffff05;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+.statistics-card h1 {
+    font-size: 3rem;
+    font-weight: 700;
 }
