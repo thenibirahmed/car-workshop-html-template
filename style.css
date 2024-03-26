@@ -132,3 +132,7 @@
     width: 15px;
     background: red;
 }
+
+.footer hr {
+    margin: 100px 0px;
+}
