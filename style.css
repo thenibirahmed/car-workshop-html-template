@@ -20,6 +20,17 @@
     font-weight: 500;
 }
 
+.mechanic-button-outline {
+    color: #F3182E;
+    border: 2px solid #F3182E;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 .nav-link {
     padding: 0 15px!important;
 }
@@ -46,4 +57,8 @@
 
 .pe-9 {
     padding-right: 9rem;
+}
+
+.mt-150 {
+    margin-top: 150px;
 }
