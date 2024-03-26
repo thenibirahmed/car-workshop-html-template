@@ -114,3 +114,21 @@
 .mt-80 {
     margin-top: 80px;
 }
+
+.cta {
+    background: url('images/cta.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.cta .phone-no{
+    padding-top: 600px;
+    padding-bottom: 100px;
+}
+
+.red-bar {
+    height: 90px;
+    width: 15px;
+    background: red;
+}
