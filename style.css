@@ -81,3 +81,36 @@
     font-size: 3rem;
     font-weight: 700;
 }
+
+.accordion-button {
+    padding: 30px 0px;
+    background-color: white!important;
+    border: 0!important;
+}
+
+.accordion-flush>.accordion-item {
+    border-bottom: 0;
+}
+
+.accordion-flush>.accordion-item:first-child {
+    border-top: 2px solid #0D0E12;
+}
+
+.accordion-flush>.accordion-item {
+    border-top: 2px solid #0D0E12;
+    background-color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0D0E12;
+}
+
+.faq-bg {
+    background: url('images/faq-bg.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
